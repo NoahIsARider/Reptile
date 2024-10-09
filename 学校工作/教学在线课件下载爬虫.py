@@ -2,20 +2,22 @@ import requests
 from bs4 import BeautifulSoup
 import requests
 import os
+import requests
+import requests
 
 cookies = {
-    'JSESSIONID': '5B1B6F80897D1DF9129E497A09E40CC3.TM1',
-    'DWRSESSIONID': 'wWXft$wWHxf83RfsvJiE5Eujr0p',
+    'JSESSIONID': 'DCBEF3E269FD5055649CA206B7E8E47C.TM3',
+    'DWRSESSIONID': 's*Rkfm*2V$cavldDZL*79tr1L0p',
     'Hm_lvt_cad45348d1fdf49a7a9a1f8b99526616': '1712994412',
-    'Hm_lvt_242c27c7689290b81407f20c9264ca25': '1725874356,1726138697,1727343615,1728108644',
+    'Hm_lvt_242c27c7689290b81407f20c9264ca25': '1728108644,1728393687,1728438381,1728439187',
     'HMACCOUNT': '6C635DCFB517FC01',
-    'Hm_lpvt_242c27c7689290b81407f20c9264ca25': '1728108899',
+    'Hm_lpvt_242c27c7689290b81407f20c9264ca25': '1728439275',
 }
 
 headers = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-    # 'cookie': 'JSESSIONID=5B1B6F80897D1DF9129E497A09E40CC3.TM1; DWRSESSIONID=wWXft$wWHxf83RfsvJiE5Eujr0p; Hm_lvt_cad45348d1fdf49a7a9a1f8b99526616=1712994412; Hm_lvt_242c27c7689290b81407f20c9264ca25=1725874356,1726138697,1727343615,1728108644; HMACCOUNT=6C635DCFB517FC01; Hm_lpvt_242c27c7689290b81407f20c9264ca25=1728108899',
+    # 'cookie': 'JSESSIONID=DCBEF3E269FD5055649CA206B7E8E47C.TM3; DWRSESSIONID=s*Rkfm*2V$cavldDZL*79tr1L0p; Hm_lvt_cad45348d1fdf49a7a9a1f8b99526616=1712994412; Hm_lvt_242c27c7689290b81407f20c9264ca25=1728108644,1728393687,1728438381,1728439187; HMACCOUNT=6C635DCFB517FC01; Hm_lpvt_242c27c7689290b81407f20c9264ca25=1728439275',
     'priority': 'u=0, i',
     'referer': 'https://eonline.jw.scut.edu.cn/meol/common/script/left.jsp?lid=33667&groupid=4',
     'sec-ch-ua': '"Not)A;Brand";v="99", "Microsoft Edge";v="127", "Chromium";v="127"',
@@ -31,7 +33,7 @@ headers = {
 
 params = {
     'lid': '33667',
-    'folderid': '174258',
+    'folderid': '155132',
 }
 
 response = requests.get(
@@ -62,23 +64,22 @@ for link in all_links:
             full_urls.append(full_url)
             print(full_url)
 
-
 import requests
 
 cookies = {
-    'JSESSIONID': '5B1B6F80897D1DF9129E497A09E40CC3.TM1',
-    'DWRSESSIONID': 'wWXft$wWHxf83RfsvJiE5Eujr0p',
+    'JSESSIONID': 'DCBEF3E269FD5055649CA206B7E8E47C.TM3',
+    'DWRSESSIONID': 's*Rkfm*2V$cavldDZL*79tr1L0p',
     'Hm_lvt_cad45348d1fdf49a7a9a1f8b99526616': '1712994412',
-    'Hm_lvt_242c27c7689290b81407f20c9264ca25': '1725874356,1726138697,1727343615,1728108644',
+    'Hm_lvt_242c27c7689290b81407f20c9264ca25': '1728108644,1728393687,1728438381,1728439187',
     'HMACCOUNT': '6C635DCFB517FC01',
-    'Hm_lpvt_242c27c7689290b81407f20c9264ca25': '1728108903',
+    'Hm_lpvt_242c27c7689290b81407f20c9264ca25': '1728439321',
 }
 
 headers = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
     'cache-control': 'max-age=0',
-    # 'cookie': 'JSESSIONID=5B1B6F80897D1DF9129E497A09E40CC3.TM1; DWRSESSIONID=wWXft$wWHxf83RfsvJiE5Eujr0p; Hm_lvt_cad45348d1fdf49a7a9a1f8b99526616=1712994412; Hm_lvt_242c27c7689290b81407f20c9264ca25=1725874356,1726138697,1727343615,1728108644; HMACCOUNT=6C635DCFB517FC01; Hm_lpvt_242c27c7689290b81407f20c9264ca25=1728108903',
+    # 'cookie': 'JSESSIONID=DCBEF3E269FD5055649CA206B7E8E47C.TM3; DWRSESSIONID=s*Rkfm*2V$cavldDZL*79tr1L0p; Hm_lvt_cad45348d1fdf49a7a9a1f8b99526616=1712994412; Hm_lvt_242c27c7689290b81407f20c9264ca25=1728108644,1728393687,1728438381,1728439187; HMACCOUNT=6C635DCFB517FC01; Hm_lpvt_242c27c7689290b81407f20c9264ca25=1728439321',
     'priority': 'u=0, i',
     'referer': 'https://eonline.jw.scut.edu.cn/meol/common/script/listview.jsp?lid=33667&folderid=155132',
     'sec-ch-ua': '"Not)A;Brand";v="99", "Microsoft Edge";v="127", "Chromium";v="127"',
@@ -97,6 +98,14 @@ params = {
     'resid': '155142',
     'lid': '33667',
 }
+
+response = requests.get(
+    'https://eonline.jw.scut.edu.cn/meol/common/script/preview/download_preview.jsp',
+    params=params,
+    cookies=cookies,
+    headers=headers,
+)
+
 full_download_urls = []
 for url in full_urls:
     response = requests.get(
@@ -127,7 +136,7 @@ for url in full_download_urls:
     print(url)
 
 # 指定保存文件的目录
-save_directory = r"C:\Users\abc\Desktop\文件\学习资料\复习课件讲义\离散数学"
+save_directory = r"C:\Users\abc\Desktop\测试"
 
 # 确保目录存在
 if not os.path.exists(save_directory):
@@ -137,11 +146,14 @@ if not os.path.exists(save_directory):
 for index, url in enumerate(full_download_urls, start=1):
     try:
         # 发起HTTP GET请求
-        response = requests.get(url, stream=True)
+        response = requests.get(url,
+                                params=params,
+                                cookies=cookies,
+                                headers=headers,
+                                )
         response.raise_for_status()  # 检查请求是否成功
 
-        # 生成文件名，例如：1.pdf, 2.pdf, ...
-        file_name = f"{index}.pptx"  # 假设文件是PDF格式，根据实际情况调整
+        file_name = f"{index}.pptx"
         file_path = os.path.join(save_directory, file_name)
 
         # 保存文件
