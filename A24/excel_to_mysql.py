@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 mydb = pymysql.connect(
     host="localhost",  # 你的 MySQL 主机地址
     user="root",  # 你的 MySQL 用户名
-    password="050630zfyn"  # 你的 MySQL 密码
+    password=""  # 你的 MySQL 密码
 )
 
 # 创建游标对象
